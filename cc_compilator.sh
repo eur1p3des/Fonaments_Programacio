@@ -12,5 +12,5 @@ echo "Choose a name for your new compiled file"
 # Select the new name
 read new_file
 
-# Compilate the file chosen
+# Compile the chosen file
 g++ -Wall $file_to_compile -o $new_file
